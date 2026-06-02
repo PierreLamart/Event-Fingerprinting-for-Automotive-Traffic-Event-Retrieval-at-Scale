@@ -1,0 +1,18 @@
+{
+  "General": {
+    "roi_width": 63,
+    "roi_height": 120,
+    "sfc_bounding": 0.05,
+    "yolo_track_threshold": 80,
+    "image_width": 752,
+    "fps": 30,
+    "yolo_model_path": "yolo12n.pt",
+    "person_class_id": 0
+  },
+  "Dataset": {
+    "my_new_dataset": {
+      "grid_left_top_coord": [[150,216],[213,216],[276,216],[414,216],[477,216],[540,216]],
+      "input_root": "test_smirk"
+    }
+  }
+}
